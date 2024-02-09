@@ -8,7 +8,7 @@ import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.*
 import java.util.*
 @RestController
-@RequestMapping("/character") // Ruta base para este controlador
+@RequestMapping("/character*") // Ruta base para este controlador
 @CrossOrigin(methods = [RequestMethod.GET, RequestMethod.POST, RequestMethod.PATCH, RequestMethod.PUT, RequestMethod.DELETE])
 class CharacterController {
 
