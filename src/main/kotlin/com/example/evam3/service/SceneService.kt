@@ -1,6 +1,5 @@
 package com.example.evam3.service
 
-
 import com.example.evam3.entity.Scene
 import com.example.evam3.repository.FilmRepository
 import com.example.evam3.repository.SceneRepository
@@ -50,4 +49,3 @@ class SceneService {
         return true
     }
 }
-

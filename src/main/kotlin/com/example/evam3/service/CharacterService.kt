@@ -1,6 +1,5 @@
 package com.example.evam3.service
 
-
 import com.example.evam3.entity.Character  // Asegúrate de importar la clase Character correcta
 import com.example.evam3.repository.CharacterRepository
 import com.example.evam3.repository.SceneRepository

@@ -8,4 +8,3 @@ import org.springframework.stereotype.Repository
 interface SceneRepository : JpaRepository<Scene, Long> {
     fun findByFilmId(filmId: Long): Scene?
 }
-
